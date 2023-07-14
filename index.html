@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="top">
+          <div class="nav">
+            <p class="date"></p>
+            <ion-icon name="person" class="user"></ion-icon>
+          </div>
+          <ion-icon name="partly-sunny" class="icon"></ion-icon>
+          <select id="unit-converter">
+            <option>Temperature</option>
+            <option>Currency</option>
+            <option>Length</option>
+          </select>
+        </div>
+
+        <div class="primary">
+          <input type="number" id="main-unit" class="unit-input" />
+          <select class="main-unit-options reset">
+            <option>Celsius</option>
+            <option>Kelvin</option>
+            <option>Fahrenheit</option>
+          </select>
+        </div>
+
+        <div class="secondary">
+          <input type="number" id="second-unit" class="unit-input" />
+          <select class="second-unit-options reset">
+            <option>Kelvin</option>
+            <option>Fahrenheit</option>
+            <option>Celsius</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
